@@ -120,9 +120,9 @@ main{
         margin:  auto;
         padding: var(--small-dim) auto;
 
-        border-radius: 20px;
+        border-radius: 6px;
         border-width: 2px;
-        border-color: var(--bg1-color);
+        border-color: var(--s-color);
         border-style: solid;
 
         display: inline-block;
@@ -140,9 +140,18 @@ main{
             border: none;
             background: transparent;
             color: var(--bg2-color);
-
         }
-    
+
+    label{
+        font-size: var(--main-dim);
+        font-family: 'Nova Square', cursive;
+        color: var(--s-color);
+    }
+    .controls{
+        
+          float: left; 
+          padding: var(--small-dim); 
+    }
 
 
 
